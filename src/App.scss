@@ -3,21 +3,24 @@
   padding: 0;
 }
 
-body{
-  position: relative;
-  overflow: hidden;
-  &::before {
-    content: "";
-    position: fixed;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-    transform: rotate(-20deg);
-    background-image: url('./img/bg-black-rock2.png');
-    background-position: center;
-  }
+// body{
+//   position: relative;
+//   overflow: hidden;
+//   &::before {
+//     content: "";
+//     position: fixed;
+//     width: 200%;
+//     height: 200%;
+//     top: -50%;
+//     left: -50%;
+//     z-index: -1;
+//     transform: rotate(-20deg);
+//     background-image: url('./img/bg-black-rock2.png');
+//     background-position: center;
+//   }
+// }
+body {
+  background-color: #595959;
 }
 
 main {
