@@ -1,0 +1,24 @@
+.main-home {
+    height: calc(100vh - 9.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .img-in-construction {
+        width: 32.5rem;
+    }
+    .div-contact {
+        margin-top: 1rem;
+        background-color: black;
+        border-radius: 10px;
+        padding: 0.3rem;
+        .p-contact {
+            color: white;
+            .a-mailTo {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
