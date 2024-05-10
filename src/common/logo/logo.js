@@ -5,7 +5,7 @@ import logo from '../../img/logo.png'
 const Logo = () => {
     return (
         <>
-            <img src={logo}></img>
+            <img className='logo-navbar' src={logo}></img>
             <h1>Be Digital</h1>
         </>
     )

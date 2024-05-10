@@ -27,3 +27,15 @@ main {
   margin: 0 10rem;
   background-color: white;
 }
+
+@media  screen and (max-width: 840px) {
+  main {
+    margin: 0 5rem;
+  }
+}
+
+@media  screen and (max-width: 535px) {
+  main {
+    margin: 0;
+  }
+}

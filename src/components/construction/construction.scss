@@ -22,3 +22,20 @@
         }
     }
 }
+
+@media  screen and (max-width: 840px) {
+    .main-home {
+        .img-in-construction {
+            width: 20rem;
+        }
+    }
+}
+
+@media  screen and (max-width: 535px) {
+    .main-home {
+        height: calc(100vh - 4rem);
+        .img-in-construction {
+            width: 15rem;
+        }
+    }
+}
