@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&family=Space+Grotesk:wght@300..700&display=swap');
+// COLORES
+$blanco: #FAFAFA;
+$negro: #232323;
+$naranja100: #F5790F;
+$naranja200: #994C09;
+$violeta100: #CC40F5;
+$violeta200: #7F2899;
+$gris100: #A6A6A6;
+$gris200: #595959;
+
+
+// MEDIAS QUERIES
+$mobile:535px;
+$tablet:840px;
+
+// MEDIDAS
+$heigth-navbar-small: 5rem;
+$heigth-navbar-large: 6rem;
+
+// FUENTES
+.texto-parrafo {
+    font-weight:normal;
+    font-style: normal;
+}
+.texto-link {
+    font-weight:bold;
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+}

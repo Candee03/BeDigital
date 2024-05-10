@@ -1,41 +1,57 @@
+@import '../../styles/Variables.scss';
+
 .main-home {
-    height: calc(100vh - 6rem);
+    height: calc(100vh - $heigth-navbar-large);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: -1;
     .img-in-construction {
         width: 32.5rem;
     }
+    .p1 {
+        @extend .texto-parrafo;
+    }
     .div-contact {
+        transition: 0.5s;
         margin-top: 1rem;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: $naranja200;
         border-radius: 10px;
         padding: 0.3rem;
-        .p-contact {
-            color: white;
-            .a-mailTo {
-                text-decoration: none;
-                color: white;
-                font-weight: bold;
-            }
+        .a-contact {
+            @extend .texto-link;
+            color: $blanco;
+            font-style: normal;
+            text-decoration: none;
         }
+    }
+    .div-contact:hover {
+        transition: 0.5s;
+        transform: scale(1.2);
     }
 }
 
-@media  screen and (max-width: 840px) {
+
+//* MEDIAS QUERIES TABLET Y MOBILE
+
+@media  screen and (max-width: $tablet) {
     .main-home {
+        height: calc(100vh - $heigth-navbar-small);
         .img-in-construction {
             width: 20rem;
         }
     }
 }
 
-@media  screen and (max-width: 535px) {
+@media  screen and (max-width: $mobile) {
     .main-home {
-        height: calc(100vh - 4rem);
         .img-in-construction {
-            width: 15rem;
+            width: 20rem;
+        }
+        .div-contact {
+            font-size: larger;
         }
     }
 }

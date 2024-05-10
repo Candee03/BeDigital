@@ -5,8 +5,8 @@ import logo from '../../img/logo.png'
 const Logo = () => {
     return (
         <>
-            <img className='logo-navbar' src={logo}></img>
-            <h1>Be Digital</h1>
+            <img alt='logo de be digital' className='logo-navbar' src={logo}></img>
+            <h1 className='h1-logo'>Be Digital</h1>
         </>
     )
 }

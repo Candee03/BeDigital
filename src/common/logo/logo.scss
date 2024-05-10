@@ -1,16 +1,18 @@
-h1 {
-    color: white;
+@import '../../styles/Variables.scss';
+
+.h1-logo {
+    color: $negro;
 }
 
 .logo-navbar {
     width: 5rem;
 }
 
-@media  screen and (max-width: 535px) {
+@media  screen and (max-width: $tablet) {
     .logo-navbar {
         width: 3rem;
     }
-    h1 {
+    .h1-logo {
         font-size: 25px;
     }
 }
