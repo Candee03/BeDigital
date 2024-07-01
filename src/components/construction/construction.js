@@ -1,14 +1,14 @@
 import React from 'react'
 import './construction.scss'
-import construction from '../../img/in-construction.jpg'
+import construction from '../../img/building-page.png'
 
 const Construction = () => {
     return (
         <main className='main-home'>
             <img className='img-in-construction' src={construction} alt='*'></img>
-            <p className='p1'>Nuestra página está en construcción</p>
+            <p className='p1'>⚠️ página en construcción ⚠️</p>
             <div className='div-contact'>
-                <a className='a-contact' href='mailto:info@bedigital.uno'>Contáctenos a info@bedigital.uno</a> 
+                <p className='p2'>Contáctanos a nuestro e-mail: <a className='a-contact' href='mailto:bedigitalservicios@gmail.com'>bedigitalservicios@gmail.com</a></p>
             </div>
         </main>
     )

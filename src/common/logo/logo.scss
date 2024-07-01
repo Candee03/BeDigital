@@ -1,18 +1,12 @@
 @import '../../styles/Variables.scss';
 
-.h1-logo {
-    color: $negro;
-}
 
 .logo-navbar {
-    width: 5rem;
+    width: 7.5rem;
 }
 
-@media  screen and (max-width: $tablet) {
-    .logo-navbar {
-        width: 3rem;
-    }
-    .h1-logo {
-        font-size: 25px;
-    }
-}
+// @media  screen and (max-width: $tablet) {
+//     .h1-logo {
+//         font-size: 25px;
+//     }
+// }

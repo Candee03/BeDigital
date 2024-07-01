@@ -6,7 +6,6 @@ const Logo = () => {
     return (
         <>
             <img alt='logo de be digital' className='logo-navbar' src={logo}></img>
-            <h1 className='h1-logo'>Be Digital</h1>
         </>
     )
 }

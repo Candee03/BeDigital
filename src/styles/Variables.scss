@@ -16,7 +16,7 @@ $tablet:840px;
 
 // MEDIDAS
 $heigth-navbar-small: 5rem;
-$heigth-navbar-large: 6rem;
+$heigth-navbar-large: 4.5rem;
 
 // FUENTES
 .texto-parrafo {
@@ -24,9 +24,10 @@ $heigth-navbar-large: 6rem;
     font-style: normal;
 }
 .texto-link {
-    font-weight:bold;
+    font-weight:600;
     font-style: normal;
-    text-decoration: none;
+    cursor: pointer;
+    color: $negro;
 }
 
 

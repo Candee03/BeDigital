@@ -7,29 +7,24 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: -1;
     .img-in-construction {
-        width: 32.5rem;
+        pointer-events: none;
+        user-select: none;
+        height: calc(100vh - $heigth-navbar-large - 10rem);
     }
     .p1 {
-        @extend .texto-parrafo;
+        padding: 1rem;
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: uppercase;
     }
     .div-contact {
-        transition: 0.5s;
-        margin-top: 1rem;
-        background-color: $naranja200;
-        border-radius: 10px;
-        padding: 0.3rem;
-        .a-contact {
-            @extend .texto-link;
-            color: $blanco;
-            font-style: normal;
-            text-decoration: none;
+        .p2 {
+            @extend .texto-parrafo;
+            .a-contact {
+                @extend .texto-link;
+            }
         }
-    }
-    .div-contact:hover {
-        transition: 0.5s;
-        transform: scale(1.2);
     }
 }
 
@@ -49,9 +44,6 @@
     .main-home {
         .img-in-construction {
             width: 20rem;
-        }
-        .div-contact {
-            font-size: larger;
         }
     }
 }

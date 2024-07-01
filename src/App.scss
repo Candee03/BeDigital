@@ -1,41 +1,27 @@
+@import './styles/Variables.scss';
 * {
   margin: 0;
   padding: 0;
 }
 
-// body{
-//   position: relative;
-//   overflow: hidden;
-//   &::before {
-//     content: "";
-//     position: fixed;
-//     width: 200%;
-//     height: 200%;
-//     top: -50%;
-//     left: -50%;
-//     z-index: -1;
-//     transform: rotate(-20deg);
-//     background-image: url('./img/bg-black-rock2.png');
-//     background-position: center;
-//   }
-// }
 body {
   background-color: #595959;
 }
 
 main {
-  margin: 0 10rem;
-  background-color: #FAFAFA;
+  // margin: 0 6rem;
+  background-color: $blanco;
 }
 
-@media  screen and (max-width: 840px) {
-  main {
-    margin: 0 5rem;
-  }
-}
+// @media  screen and (max-width: 840px) {
+//   main {
+//     margin: 0 2rem;
+//   }
+// }
 
-@media  screen and (max-width: 535px) {
-  main {
-    margin: 0;
-  }
-}
+// @media  screen and (max-width: 535px) {
+//   main {
+//     margin: 0;
+//   }
+
+// }
