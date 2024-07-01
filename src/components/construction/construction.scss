@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
     .img-in-construction {
         pointer-events: none;
         user-select: none;
@@ -19,6 +18,9 @@
         text-transform: uppercase;
     }
     .div-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .p2 {
             @extend .texto-parrafo;
             .a-contact {
@@ -35,15 +37,27 @@
     .main-home {
         height: calc(100vh - $heigth-navbar-small);
         .img-in-construction {
-            width: 20rem;
+            width: 22rem;
+            height: auto;
+        }
+        .p1 {
+            padding: 0;
+        }
+        .div-contact {
+            .p2 {
+                font-size: 20px;
+                padding: 2rem 0;
+                text-align: center;
+            }
         }
     }
 }
 
-@media  screen and (max-width: $mobile) {
-    .main-home {
-        .img-in-construction {
-            width: 20rem;
-        }
-    }
-}
+// @media  screen and (max-width: $mobile) {
+//     .main-home {
+//         .img-in-construction {
+//             width: 20rem;
+//             height: auto;
+//         }
+//     }
+// }
